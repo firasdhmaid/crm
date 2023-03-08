@@ -10,6 +10,7 @@ function header() {
   )
 }
 
+
 const styles = StyleSheet.create({
     main:{
         width : '100%',
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
         position : "absolute",
         marginTop : 25,
         marginLeft : 170,
-        fontFamily : 'Zen Dots',
+        fontFamily : 'ZenDots-Regular',
         fontWeight : 400,
         lineHeight : 23,
         
