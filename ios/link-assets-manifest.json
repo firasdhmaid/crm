@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/cal-sans/fonts/otf/CalSans-SemiBold.otf",
+      "sha1": "50872215daeabcfc43abe59ecca19d54dd3c0139"
+    },
+    {
+      "path": "assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.ttf",
+      "sha1": "bf152aee9ca71d660f4a83dcf7784761f35ed130"
+    },
+    {
+      "path": "assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.woff",
+      "sha1": "107e1c297b73f5d65c984b21130ad398b1d76a3a"
+    },
+    {
+      "path": "assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.woff2",
+      "sha1": "3f676e1fbc3f551aaa9ca45e93bbce71703f03d8"
+    },
+    {
+      "path": "assets/fonts/cal-sans/OFL.txt",
+      "sha1": "76aae448215febede2774c7ad196c29233b007ca"
+    },
+    {
+      "path": "assets/fonts/cal-sans/README.md",
+      "sha1": "4d0ffe38522057a82d61c4403d0e3241f5576369"
+    },
+    {
+      "path": "assets/fonts/Zen_Dots/OFL.txt",
+      "sha1": "1f11e0a4f06ddaeed5e49b480912eaeb90c7ccc2"
+    },
+    {
+      "path": "assets/fonts/Zen_Dots/ZenDots-Regular.ttf",
+      "sha1": "77a272f37fd2c260477469b6fe8fa5c5dea890e9"
+    }
+  ]
+}
