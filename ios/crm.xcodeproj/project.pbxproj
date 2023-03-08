@@ -14,6 +14,14 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-crm-crmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-crm-crmTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		584B671A7E21413194C2CCD9 /* CalSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC10A967A8944844A997DA7A /* CalSans-SemiBold.otf */; };
+		AF66C7341F8642C2980E6993 /* CalSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D4C8AAD033C48659DE61E9F /* CalSans-SemiBold.ttf */; };
+		00512EB15EC5417FB7029881 /* ZenDots-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDDBE13983A944B9BBAFCCA6 /* ZenDots-Regular.ttf */; };
+		B4FA8DCE9F4743F6AC491079 /* CalSans-SemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 12AD3C358B9841BD94B7D4BB /* CalSans-SemiBold.woff */; };
+		58FD24BC90354844B25F644B /* CalSans-SemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = CA4B6A7F64BC4F52910E753E /* CalSans-SemiBold.woff2 */; };
+		1A47136AC38E48B69ADD2CF1 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = F13D85B25DDA48BDA5C12DF6 /* OFL.txt */; };
+		81B0E2E2719C446CB295CC26 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1C9105ECB4A54995B6FB1FB0 /* README.md */; };
+		E6F2525D86A54C569985857C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1191FBBE80B4089B1E2004B /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = crm/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-crm-crmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crm-crmTests.release.xcconfig"; path = "Target Support Files/Pods-crm-crmTests/Pods-crm-crmTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FC10A967A8944844A997DA7A /* CalSans-SemiBold.otf */ = {isa = PBXFileReference; name = "CalSans-SemiBold.otf"; path = "../assets/fonts/cal-sans/fonts/otf/CalSans-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D4C8AAD033C48659DE61E9F /* CalSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "CalSans-SemiBold.ttf"; path = "../assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDDBE13983A944B9BBAFCCA6 /* ZenDots-Regular.ttf */ = {isa = PBXFileReference; name = "ZenDots-Regular.ttf"; path = "../assets/fonts/Zen_Dots/ZenDots-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12AD3C358B9841BD94B7D4BB /* CalSans-SemiBold.woff */ = {isa = PBXFileReference; name = "CalSans-SemiBold.woff"; path = "../assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA4B6A7F64BC4F52910E753E /* CalSans-SemiBold.woff2 */ = {isa = PBXFileReference; name = "CalSans-SemiBold.woff2"; path = "../assets/fonts/cal-sans/fonts/webfonts/CalSans-SemiBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F13D85B25DDA48BDA5C12DF6 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/cal-sans/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C9105ECB4A54995B6FB1FB0 /* README.md */ = {isa = PBXFileReference; name = "README.md"; path = "../assets/fonts/cal-sans/README.md"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1191FBBE80B4089B1E2004B /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/Zen_Dots/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +138,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				EC411DF0B9224F67900561D1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +164,22 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		EC411DF0B9224F67900561D1 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				FC10A967A8944844A997DA7A /* CalSans-SemiBold.otf */,
+				5D4C8AAD033C48659DE61E9F /* CalSans-SemiBold.ttf */,
+				EDDBE13983A944B9BBAFCCA6 /* ZenDots-Regular.ttf */,
+				12AD3C358B9841BD94B7D4BB /* CalSans-SemiBold.woff */,
+				CA4B6A7F64BC4F52910E753E /* CalSans-SemiBold.woff2 */,
+				F13D85B25DDA48BDA5C12DF6 /* OFL.txt */,
+				1C9105ECB4A54995B6FB1FB0 /* README.md */,
+				E1191FBBE80B4089B1E2004B /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +277,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				584B671A7E21413194C2CCD9 /* CalSans-SemiBold.otf in Resources */,
+				AF66C7341F8642C2980E6993 /* CalSans-SemiBold.ttf in Resources */,
+				00512EB15EC5417FB7029881 /* ZenDots-Regular.ttf in Resources */,
+				B4FA8DCE9F4743F6AC491079 /* CalSans-SemiBold.woff in Resources */,
+				58FD24BC90354844B25F644B /* CalSans-SemiBold.woff2 in Resources */,
+				1A47136AC38E48B69ADD2CF1 /* OFL.txt in Resources */,
+				81B0E2E2719C446CB295CC26 /* README.md in Resources */,
+				E6F2525D86A54C569985857C /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
