@@ -2,6 +2,7 @@ import { StyleSheet, Text, View ,Image} from 'react-native'
 import React from 'react'
 
 const product = (props) => {
+  /*the container of every product just add a link for the picture and a title and a content of the product*/
   return (
     <View style={styles.main}>
       <View style={styles.imgcontainer}>

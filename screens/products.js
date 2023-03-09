@@ -5,6 +5,8 @@ import Product from '../components/product'
 import PageHeader from '../components/pageHeader'
 
 const products = () => {
+    /*we'll use json server for getting data when its ready*/
+    /*data of products*/
     const [cards,setcards] =useState([
         {
         id : 1,
@@ -64,14 +66,11 @@ const styles = StyleSheet.create({
     main : {
         position : 'relative'
     },
-    
     secondcontainer : {
         backgroundColor : 'white',
         height : '70%',
         flexWrap : 'wrap',
-        top:70
-       
-
+        top:70,
     },
 })
 

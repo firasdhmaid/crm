@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
 const pageHeader = (props) => {
+  /*the header of any page just add a title and a content*/
   return (
     <View>
       <View style={styles.firstcontainer} >
