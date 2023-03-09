@@ -5,7 +5,7 @@ const product = (props) => {
   return (
     <View style={styles.main}>
       <View style={styles.imgcontainer}>
-        <Image style={styles.img} source ={require('')}/>
+        <Image style={styles.img} source ={require('../src/images/me.jpg')}/>
       </View>
       <View style={styles.prodcontainer}>
         <Text style = {styles.texttitle}>{props.title}</Text>
