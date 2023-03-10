@@ -1,6 +1,6 @@
 import React from 'react'
 import {View , Text , StyleSheet, Image} from 'react-native'
-function header() {
+function Header() {
   return (
     <View style={styles.main}>
         <Image style={styles.imgstyle} source={require('../src/images/D.png')}/>
@@ -45,4 +45,4 @@ const styles = StyleSheet.create({
         marginLeft : 130
     }
 })
-export default header
+export default Header
