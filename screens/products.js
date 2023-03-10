@@ -1,8 +1,8 @@
 import { View, Text, StyleSheet, FlatList, ScrollView } from 'react-native'
 import React,{useState} from 'react'
-import Header from '../components/header'
-import Product from '../components/product'
-import PageHeader from '../components/pageHeader'
+import Header from '../components/Header'
+import Product from '../components/Product'
+import PageHeader from '../components/PageHeader'
 
 const products = () => {
     /*we'll use json server for getting data when its ready*/

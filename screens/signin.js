@@ -1,8 +1,8 @@
 import { View, Text, StyleSheet,Image, TextInput, TouchableOpacity } from 'react-native'
 import React ,{useState} from 'react'
-import Header from '../components/header'
+import Header from '../components/Header'
 
-const signin = () => {
+const Signin = () => {
     const [Username, onchangeUsername] = useState('');
     const [Password, onchangePassword] = useState('');
   return (
@@ -107,4 +107,4 @@ const styles = StyleSheet.create({
     },
 })
 
-export default signin;
+export default Signin;

@@ -1,18 +1,28 @@
 import React from 'react'
 import {View , Text , StyleSheet} from 'react-native'
 import HeroPage from './screens/HeroPage'
-import AuthPage from './screens/AuthPage';
-import Signin from './screens/signin';
-import SignUp from './screens/signup';
-import Products from './screens/products';
+
+import Signin from './screens/Signin';
+import SignUp from './screens/Signup';
+import Products from './screens/Products';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 
 function App() {
+  const Stack = createNativeStackNavigator();
   return (
-    <View>
-      <HeroPage />
-      <Products/>
-    </View>
+    <NavigationContainer>
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Screen
+        name="Home"
+        component={HeroPage}
+        options={{title: 'HeroPage'}}
+      />
+      <Stack.Screen name="Signin" component={Signin} />
+      <Stack.Screen name="Signup" component={SignUp} />
+    </Stack.Navigator>
+  </NavigationContainer>
   )
 }
 

@@ -1,8 +1,8 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
-import Header from '../components/header'
+import Header from '../components/Header'
 
-const HeroPage = () => {
+const HeroPage = ({navigation}) => {
   return (
     <View>
         <Header />
@@ -13,13 +13,13 @@ const HeroPage = () => {
           </View>
           <Text style={styles.textstyle2}> All your contact information in one card </Text>
           <View style={styles.btncontainer}>
-              <TouchableOpacity style={styles.button} >
+              <TouchableOpacity style={styles.button} onPress={() =>navigation.navigate('Signup')}>
                   <Text style={styles.btntext}>Create Account  </Text>
                   <Image style={styles.icon} source={require('../src/images/Icon.png')}/>
               </TouchableOpacity>
           </View>
           <View style={styles.btncontainer}>
-              <TouchableOpacity style={styles.button2} >
+              <TouchableOpacity style={styles.button2} onPress={() =>navigation.navigate('Signin')}>
                   <Text style={styles.btntext2}>Login </Text>
               </TouchableOpacity>
           </View>

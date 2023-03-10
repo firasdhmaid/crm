@@ -1,8 +1,8 @@
 import { View, Text, StyleSheet, Image,TextInput,TouchableOpacity} from 'react-native'
 import React,{useState} from 'react'
-import Header from '../components/header'
+import Header from '../components/Header'
 
-const signup = () => {
+const Signup = () => {
     const [Fname, onchangeFname] = useState('');
     const [Lname, onchangeLname] = useState('');
     const [Email, onchangeEmail] = useState('');
@@ -77,4 +77,4 @@ const styles = StyleSheet.create({
     },
 })
 
-export default signup
+export default Signup
