@@ -1,12 +1,12 @@
 import React from 'react'
 import {View , Text , StyleSheet} from 'react-native'
 
-import AuthPage from './screens/AuthPage';
+import HeroPage from './screens/HeroPage';
 
 function App() {
   return (
     <View>
-      <AuthPage />
+      <HeroPage />
     </View>
   )
 }
