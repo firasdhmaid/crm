@@ -13,13 +13,13 @@ const HeroPage = () => {
           </View>
           <Text style={styles.textstyle2}> All your contact information in one card </Text>
           <View style={styles.btncontainer}>
-              <TouchableOpacity style={styles.button} >
+              <TouchableOpacity style={styles.button} /*onPress={}*/>
                   <Text style={styles.btntext}>Create Account  </Text>
                   <Image style={styles.icon} source={require('../src/images/Icon.png')}/>
               </TouchableOpacity>
           </View>
           <View style={styles.btncontainer}>
-              <TouchableOpacity style={styles.button2} >
+              <TouchableOpacity style={styles.button2} /*onPress={}*/>
                   <Text style={styles.btntext2}>Login </Text>
               </TouchableOpacity>
           </View>
