@@ -1,8 +1,8 @@
 import React from 'react'
 import {View , Text , StyleSheet} from 'react-native'
 import HeroPage from './screens/HeroPage'
-import Signin from './screens/signin'
-import SignUp from './screens/signup'
+import Signin from './screens/Signin'
+import SignUp from './screens/Signup'
 import Products from './screens/products'
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
