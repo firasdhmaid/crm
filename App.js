@@ -7,6 +7,7 @@ import SignUp from './screens/Signup';
 import Products from './screens/Products';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import Card_details  from './screens/Card_details';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <Stack.Navigator screenOptions={{headerShown: false}}>
       <Stack.Screen
         name="Home"
-        component={HeroPage}
+        component={Card_details}
         options={{title: 'HeroPage'}}
       />
       <Stack.Screen name="Signin" component={Signin} />

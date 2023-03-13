@@ -1,11 +1,13 @@
-import { View, Text, StyleSheet,Image, TextInput, TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet,Image, TextInput, TouchableOpacity,Alert } from 'react-native'
 import React ,{useState} from 'react'
 import Header from '../components/Header'
 
 const Signin = () => {
     const [Username, onchangeUsername] = useState('');
     const [Password, onchangePassword] = useState('');
+ 
   return (
+    
     <View style={styles.bigframe}>
       <Header/>
       <View style={styles.logocontainer}>
@@ -19,7 +21,7 @@ const Signin = () => {
       <TextInput style={styles.inputu} onChangeText={Username => onchangeUsername(Username)} value={Username} placeholder=' E-mail'/>
       <TextInput style={styles.inputp} onChangeText={Password => onchangePassword(Password)} value={Password} placeholder=' Password'/>
       <TouchableOpacity><Text style={styles.fpass}>Forgot your Password ?</Text></TouchableOpacity>
-      <TouchableOpacity style={styles.button} /*onPress={onpress function}*/ >
+      <TouchableOpacity style={styles.button} /*onPress={} */>
         <Text style = {styles.textbutton}>Sign In</Text>
       </TouchableOpacity>
       </View>
@@ -42,9 +44,10 @@ const styles = StyleSheet.create({
     },
     bastext: {
         color : 'white',
-        fontFamily : 'ZenDots-Regular',
+        fontFamily : 'CalSans-SemiBold',
         fontSize : 25,
-        marginBottom : 40
+        marginBottom : 40,
+        textAlign : 'center'
     },
     dtext : {
         color : 'white',
