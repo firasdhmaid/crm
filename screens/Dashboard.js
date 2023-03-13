@@ -18,7 +18,7 @@ const Dashboard = () => {
   return (
    
     <NavigationContainer>
-    <Tab.Navigator>
+    <Tab.Navigator screenOptions={{headerShown:false}}>
       <Tab.Screen name="Cards" component={Cards} />
       <Tab.Screen name="Contacts" component={SettingsScreen} />
       <Tab.Screen name="Background" component={SettingsScreen} />

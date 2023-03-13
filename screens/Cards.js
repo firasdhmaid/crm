@@ -1,10 +1,13 @@
 import { StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native'
 import React from 'react'
 import Card from '../components/Card'
+import Header from '../components/Header'
 
 const Cards = () => {
   return (
     <View >
+    <Header/>
+    <View style ={styles.container}>
     <Text style={styles.title}>Manage your cards</Text>
     <View style={styles.btncontainer}>
           <TouchableOpacity style={styles.button} onPress={() =>navigation.navigate('Signup')}>
@@ -13,6 +16,8 @@ const Cards = () => {
             
           </TouchableOpacity>
       </View>
+    </View>
+   
 <Card name='cardname1' type='cardtype' desc='User description of the card here'/>
 {/*second card*/}
 <Card name='cardname2' type='cardtype' desc='User description of the card here'/>
@@ -24,6 +29,9 @@ const Cards = () => {
 export default Cards
 
 const styles = StyleSheet.create({
+    container:{
+        marginTop:"30%",
+    },
     title:{
         fontFamily : 'CalSans-SemiBold',
         textAlign:"center",

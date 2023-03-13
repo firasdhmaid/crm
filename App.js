@@ -24,6 +24,7 @@ function App() {
       <Stack.Screen name="Signup" component={SignUp} />
     </Stack.Navigator>
   </NavigationContainer>*/
+ 
   < Cards />
   )
 }
