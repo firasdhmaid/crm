@@ -4,29 +4,30 @@ import HeroPage from './screens/HeroPage'
 import Signin from './screens/Signin'
 import SignUp from './screens/Signup'
 import Products from './screens/Products'
-import Cards from './screens/Dashboard'
+import Dashboard from './screens/Dashboard'
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Card_details  from './screens/Card_details';
+import CardDetails  from './screens/CardDetails';
+import UserDetails from './screens/UserDetails'
 
 
 
 function App() {
   const Stack = createNativeStackNavigator();
   return (
-    /*<NavigationContainer>
+   /*<NavigationContainer>
     <Stack.Navigator screenOptions={{headerShown: false}}>
       <Stack.Screen
         name="Home"
-        component={Card_details}
+        component={HeroPage}
         options={{title: 'HeroPage'}}
       />
       <Stack.Screen name="Signin" component={Signin} />
       <Stack.Screen name="Signup" component={SignUp} />
     </Stack.Navigator>
   </NavigationContainer>*/
- 
-  < Cards />
+
+   < CardDetails/> 
   )
 }
 
