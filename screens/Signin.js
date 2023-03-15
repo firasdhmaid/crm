@@ -1,10 +1,23 @@
 import { View, Text, StyleSheet,Image, TextInput, TouchableOpacity,Alert } from 'react-native'
 import React ,{useState} from 'react'
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Header from '../components/Header'
+import Dashboard from './Dashboard'
+import { useNavigation } from '@react-navigation/native';
+
+
+
 
 const Signin = () => {
     const [Username, onchangeUsername] = useState('');
     const [Password, onchangePassword] = useState('');
+    const navigation = useNavigation();
+    const OnSigninPressed = () =>{
+        if(Username==='admin'&&Password==='admin'){
+            
+        }
+    }
  
   return (
     
@@ -21,7 +34,7 @@ const Signin = () => {
       <TextInput style={styles.inputu} onChangeText={Username => onchangeUsername(Username)} value={Username} placeholder=' E-mail'/>
       <TextInput style={styles.inputp} onChangeText={Password => onchangePassword(Password)} value={Password} placeholder=' Password'/>
       <TouchableOpacity><Text style={styles.fpass}>Forgot your Password ?</Text></TouchableOpacity>
-      <TouchableOpacity style={styles.button} /*onPress={} */>
+      <TouchableOpacity style={styles.button} onPress={OnSigninPressed}>
         <Text style = {styles.textbutton}>Sign In</Text>
       </TouchableOpacity>
       </View>

@@ -1,8 +1,13 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import Header from '../components/Header'
+import {useNavigation} from '@react-navigation/native';
 
-const HeroPage = ({navigation}) => {
+const HeroPage = () => {
+  const navigation = useNavigation();
+  const onPressed = () =>{
+    navigation.navigate("Signin");
+  }
   return (
     <View>
         <Header />
@@ -19,13 +24,14 @@ const HeroPage = ({navigation}) => {
               </TouchableOpacity>
           </View>
           <View style={styles.btncontainer}>
-              <TouchableOpacity style={styles.button2} onPress={() =>navigation.navigate('Signin')}>
+              <TouchableOpacity style={styles.button2} onPress={() =>onPressed()}>
                   <Text style={styles.btntext2}>Login </Text>
               </TouchableOpacity>
           </View>
       
     </View>
     </View>
+    
 
 
   )
